@@ -12,7 +12,7 @@ let me = {
   firstName: "Allie",
   lastName: "Schwartzbauer",
   hasSiblings: true,
-  shoeCount: 8.5,
+  shoeCount: 8,
   favThreeFoods: ["sushi", "coffee", "fried rice"],
   // TODO - add properties here
 };
@@ -22,14 +22,13 @@ let me = {
   - Use the firstName & lastName properties of the object you 
     created above to set its value. 
   - Console.log fullName
-*/ let fullName = { firstName, lastName };
+*/ let fullName = me.firstName + " " + me.lastName;
 console.log(fullName);
 
 /* 3. Nested arrays
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
-
 /* 4. Change a property of an existing object.
   - Console.log your current shoe count.
   - Guess what?! You just got a new pair of shoes!!!
